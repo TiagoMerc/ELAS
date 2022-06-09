@@ -1,0 +1,39 @@
+body {
+  font-family: 'Monstserrat', sans-serif;
+}
+
+nav {
+  border-color: blue;
+  box-sizing: border-box;
+  border: 2px solid #ad13a1;
+  border-radius: 12;
+}
+
+.caixa img{
+  width: 450px;
+  height: 100px;
+  object-fit: cover;
+
+}
+
+section nav {
+  border-color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.description {
+  border: 2px solid #ad13a1;
+  display:flow-root;
+}
+
+.description p {
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  margin: 200px 50px 60px 30px;
+}
