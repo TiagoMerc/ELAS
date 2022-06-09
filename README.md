@@ -6,8 +6,7 @@ Projeto da disciplina Tópicos Especiais de Informação II
 
 **Discentes:** Sarah Galiciolli, Tiago Mercês, Ulisses Xavier e Vinicius Soares. 
 
-Acessem: 
-![GitHubPages - ELAS](https://tiagomerc.github.io/ELAS/)
+Acessem: [GitHubPages - ELAS](https://tiagomerc.github.io/ELAS/)
 _______________
 
 #### Objetivo: 
