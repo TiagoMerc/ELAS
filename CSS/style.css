@@ -1,39 +1,72 @@
 body {
-  font-family: 'Monstserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-  border-color: blue;
   box-sizing: border-box;
-  border: 2px solid #ad13a1;
-  border-radius: 12;
+  border: 1px #5F40A6;
+  border-radius: 12px;
+  box-shadow: 0px 5px 40px #5F40A6 ;
 }
 
 .caixa img{
-  width: 450px;
+  width: 250px;
   height: 100px;
-  object-fit: cover;
+  padding: 10px;
+  margin: 10px 20px 10px ;
 
 }
 
-section nav {
-  border-color: blue;
-}
-
-h1 {
+.titulo {
+  margin: 80px 80px 110px 80px;
   text-align: center;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: bold;
+
 }
 
 .description {
-  border: 2px solid #ad13a1;
+  margin-block-end: -70px;
+  border-radius:12px;
+  box-shadow: 0px 0px 210px #5F40A6 ;
   display:flow-root;
+  opacity: 0.9;
 }
 
 .description p {
+  font-weight: bold;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
+  color: #5F40A6;
   position: relative;
-  margin: 200px 50px 60px 30px;
+  margin: 40px 40px 60px 30px;
+  line-height: 32.5px;
+}
+
+#pobreza-menstrual {
+  
+  width: 40%;
+  padding: 6px 6px 5px 5px;
+  background: #5F40A6;
+  color: white;    
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  transition: 1s none; /*Transição que o CSS 3 */
+  cursor: pointer;
+
+}
+
+#pobreza-menstrual:hover {
+  background: #FEFEFE;
+  color: #5F40A6;
+  transform: scale(1.2);
+  font-size: 24px;
+}
+
+footer {
+  text-align: center;
+  background: url("imgs/reference.png");
+  margin-top: 110px;
 }
