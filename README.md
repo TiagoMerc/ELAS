@@ -17,4 +17,6 @@ Apoiar iniciativas que venham para melhorar a saúde feminina, como a saúde men
 
 ![Esboço da home](imgs/print/home.png)
 
-![Atualizando página 10/06/22](imgs/logo.png/print11-06.png)
+![Primeiro esboço da home](imgs/print/primeiro%20esbo%C3%A7o.png)
+
+![Atualizando página 10/06/22](imgs/print/print11-06.png)
