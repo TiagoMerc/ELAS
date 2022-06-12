@@ -26,11 +26,12 @@ nav {
 }
 
 .description {
-  margin-block-end: 350px;
+  margin-block-end: 120px;
   border-radius:12px;
   box-shadow: 0px 0px 210px #5F40A6 ;
   display:flow-root;
   opacity: 0.9;
+
 }
 
 .description p {
@@ -41,6 +42,7 @@ nav {
   position: relative;
   margin: 40px 40px 60px 30px;
   line-height: 32.5px;
+ 
 }
 
 #pobreza-menstrual {
@@ -60,11 +62,63 @@ nav {
 
 #pobreza-menstrual:hover {
   background: #FEFEFE;
-  color: #5F40A6;
+  color: red;
   transform: scale(1.2);
-  font-size: 24px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
+.action {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  padding: 1px 10px 30px 70px;
+ 
+}
+
+.action h2 {
+  padding-left: 10px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.action img {
+  width: 90px;
+  height: 80px;
+  vertical-align: top;
+  margin-top: 5px;
+  padding-left: 10px;
+  position: absolute;
+  margin-left: 0px;
+}
+
+.action p {
+  margin-left: 200px;
+}
+
+.action li {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  border: 1px solid #5F40A6;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 40px #5F40A6 ;
+
+}
+
+.action ul li {
+  text-decoration: none;
+}
+
+#title-action {
+  text-align: center;
+  text-shadow: 0px 0px 14px #5F40A6;
+  font-size: 42px;
+
+}
+
+/*Referências*/
 footer {
   text-align: center;
   background: url("imgs/reference.png");
