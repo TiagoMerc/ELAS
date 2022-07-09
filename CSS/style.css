@@ -27,8 +27,11 @@ body {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  background-color: #3a1986;
+  height: 400px;
+  border-radius: 0px 0px 200px 200px;
+  box-sizing: border-box;
 }
 
 /* .caixa {
@@ -57,21 +60,28 @@ header {
 }
 
 .description {
-  border-radius:  8px;
-  box-shadow: 0px 0px 0px #5F40A6 ;
-  display:inline;  
-  opacity: 2.9;
-
+  
+  display: flex;
 }
 
 .description p {
-  margin: 10px 10px 10px 10px;
+  
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   line-height: 1.5;
   font-size: 24px;
   color: #5F40A6;
- 
+
+}
+
+#release-soon {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(204, 24, 189);
+  color: #FEFEFE;
+  font-weight: bold;
+  border: none;
+  align-items: center;
 }
 
 #pobreza-menstrual {
@@ -96,13 +106,68 @@ header {
   text-transform: uppercase;
 }
 
+#block {
+  width: 280px;
+  height: 340px;
+  background-color: #2200F6;
+  border-radius: 20px;
+  border: none;
+}
+
+.block-center-lists{
+  display: flex;
+  margin-bottom: 40px;
+  border: none;
+  background-color: rgb(179, 191, 201);
+  border-radius: 8px;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+ 
+}
+
+.block-center-lists h3 {
+  color: #2f1175;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.what h1, .blog h1{
+  font-size: 24px;
+  color: #5F40A6;
+  font-weight: bold;
+  align-items: center;
+}
+
+/* .blog {
+  display: flex;
+} */
+
+.blog p {
+  border: solid #5F40A6;
+  color: #FEFEFE;
+  background-color: #5F40A6;
+
+}
+
+#view-more {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(204, 24, 189);
+  color: #FEFEFE;
+  font-weight: bold;
+  border: none;
+  align-items: center;
+}
+
 #title-action {
   text-align: center;
   text-shadow: 0px 0px 4px #5F40A6;
   font-size: 24px;
   margin-top: 70px;
-
+  
 }
+
 
 .action {
 
